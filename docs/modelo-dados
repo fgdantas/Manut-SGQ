@@ -1,0 +1,33 @@
+# Modelo de Dados Inicial
+
+## Equipamento
+- id
+- codigo
+- nome
+- setor
+- fabricante
+- modelo
+- patrimonio
+- status
+
+## Preventiva
+- id
+- equipamento_id
+- descricao
+- frequencia
+- ultima_execucao
+- proxima_execucao
+- responsavel
+- status
+
+## Corretiva
+- id
+- equipamento_id
+- data_ocorrencia
+- problema
+- causa
+- acao_executada
+- responsavel
+- tempo_parada
+- pecas_trocadas
+- status
